@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About My Self</title>
+    <style>
+
+body {
+            background-image:url('images/background1.avif');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        #ab, #my, #hobbie, #Favourite, #friend {
+            text-align: center;
+        }
+
+        #ab img {
+            display: block;
+            margin: 0 auto;
+            height: 400px;
+            border-radius: 20px;
+        }
+
+        #my {
+            text-align: center;
+        }
+
+        #my .image-container, #hobbie .image-container, #Favourite .image-container, #friend .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        #my .image-container img, #hobbie .image-container img, #Favourite .image-container img, #friend .image-container img {
+            height: 250px;
+        }
+
+        #top {
+            text-align: center;
+        }
+
+        nav ul li a:hover {
+            color: rgb(0, 0, 0);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            text-decoration: none;
+            font-size: 35px;
+            font-weight: bold;
+            color: navy;
+        }
+
+        .bold {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .si {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .zi {
+            font-size: 34px;
+            font-weight: bold;
+            animation: rainbow 5s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: darkred; }
+            28% { color: darkblue; }
+            42% { color: gray; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: black; }
+            100% { color: red; }
+        }
+
+        .text {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article>
+
+        <header id="top">
+            <h1 style="color: navy;">My Personal Web</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" style="text-decoration: underline;">Home</a></li>
+                <li><a href="ab.html" style="text-decoration: underline;">About Myself</a></li>
+                <li><a href="my.html" style="text-decoration: underline;">My Lifestory</a></li>
+                <li><a href="hobbie.html" style="text-decoration: underline;">Hobbies</a></li>
+                <li><a href="Favourite.html" style="text-decoration: underline;">Favorites</a></li>
+                <li><a href="friend.html" style="text-decoration: underline;">Friends</a></li>
+            </ul>
+        </nav>
+        <hr>
+
+        <article>
+            <section id="friend">
+                <h2 class="zi">About Myself</h2>
+
+                <div class="image-container">
+                    <img src="images/ab.jpg" alt="prof 1" style="height: 400px; width: auto; border-radius: 20px;">
+                </div>
+
+                <p class="text">Hi, my name is Miels D. Flores, a 19-year-old student currently pursuing a</p>
+                <p class="text">Bachelor of Science in Information Technology (BSIT) at Saint Michael College of Caraga.</p>
+                <p class="text">I created this page to share more about who I am, and seeking ways to improve</p>
+                <p class="text"> As a student, I am focused on gaining knowledge and skills that will help me in my future</p>
+                <p class="text">learn more about my life story and experiences, </p>
+                <P class="text">am always excited to explore new opportunities for growth</P>
+                <p class="text">If you would like to learn more about me, Feel free to click more</p>
+            </section>
+        </article>
+
+</body>
+</html>
