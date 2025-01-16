@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body {
+            background-image:url('images/background1.avif');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        #ab, #my, #hobbie, #Favourite, #friend {
+            text-align: center;
+        }
+
+        #Favourite .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        #Favourite .image-container img {
+            height: 250px;
+            width: auto;
+            border-radius: 8px;
+        }
+
+        #top {
+            text-align: center;
+        }
+
+        nav ul li a:hover {
+            color: rgb(0, 0, 0); 
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px; 
+            font-weight: bold; 
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            text-decoration: none;
+            font-size: 35px; 
+            font-weight: bold; 
+            color: navy; 
+        }
+
+        .bold {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .si {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .zi {
+            font-size: 34px;
+            font-weight: bold;
+            animation: rainbow 5s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: darkred; }
+            28% { color: darkblue; }
+            42% { color: gray; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: black; }
+            100% { color: red; }
+        }
+
+        .text {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<article>
+
+    <header id="top">
+        <h1 style="color: navy;">My Personal Web</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" style="text-decoration: underline;">Home</a></li>
+            <li><a href="ab.html" style="text-decoration: underline;">About Myself</a></li>
+            <li><a href="my.html" style="text-decoration: underline;">My Lifestory</a></li>
+            <li><a href="hobbie.html" style="text-decoration: underline;">Hobbies</a></li>
+            <li><a href="Favourite.html" style="text-decoration: underline;">Favorites</a></li>
+            <li><a href="friend.html" style="text-decoration: underline;">Friends</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <section id="friend">
+        <h2 class="zi">My Favourites</h2><br>
+    
+        <a class="si">INTRODUCTION</a><br>
+    
+        <p class="text">Hi! So, here are my favorite food, movie, and game. These things help me relax, especially when I’m</p>
+        <p class="text">having a tough time or just need something to do. They help clear my mind and make me feel at</p>
+        <p class="text">ease and happy, even when I’m alone.</p>
+    
+    </section>
+<hr>
+    <section id="Favourite">
+        <h2 class="zi">My Favourite Movie</h2>
+
+        <div class="image-container">
+            <img src="images/favorate.webp" alt="favorite 1">
+            <img src="images/favorate3.webp" alt="favorite 2">
+            <img src="images/favorate2.jpg" alt="favorite 3"> 
+        </div>
+
+        <p class="text">This is one of My Favorite: The Movie the Avatar Way of Water</p>
+        <p class="text">Avatar: The Way of Water is my favorite movie because it’s a breathtaking journey into Pandora’s stunning oceans, filled with vibrant marine life and incredible visuals.</p>
+        <p class="text">The story of family, resilience, and unity deeply moved me, especially the Sully family’s bond and their fight to protect each other.</p>
+        <p class="text">The underwater scenes were magical and immersive, making me feel like I was part of their world.</p>
+        <p class="text">James Cameron’s attention to detail and the emotional depth of the film left a lasting impression that I’ll never forget.</p>
+    </section>
+<hr>
+
+<section id="Favourite">
+    <h2 class="zi">My Favourite Food</h2>
+
+    <div class="image-container">
+        <img src="images/favourite food.jpg" alt="favorite 1">
+        <img src="images/favourite food1.jpg" alt="favorite 2">
+    </div>
+
+    <p class="text">I really love mango float and Chicken Joy so much because my parents rarely buy or make them.</p>
+    <p class="text">When they do, I’m the one who ends up eating it all! It’s kind of fun to have something you don’t get</p>
+    <p class="text">as often, making it even more special when I do.</p>
+</section>
+</article>
+
+</body>
+</html>
